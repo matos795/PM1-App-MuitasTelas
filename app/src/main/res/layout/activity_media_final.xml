@@ -28,7 +28,10 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Média Final"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
@@ -104,7 +107,7 @@
             android:text="Limpar" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btnSair"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sair" />
