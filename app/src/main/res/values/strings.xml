@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">AppMuitasTelas</string>
+
+    <string name="txt_idade">Calular Idade</string>
+    <string name="txt_imc">Calular Imc</string>
+    <string name="txt_media">Calular Média</string>
+    <string name="txt_menu_title">MENU PRINCIPAL</string>
+
+    <string name="txt_login_usuario">Usuário</string>
+    <string name="txt_login_senha">Senha</string>
+    <string name="txt_login_button">Entrar</string>
+    <string name="txt_login_erro">Usuário ou senha incorretos</string>
+
+    <string name="txt_btn_calcular">Calcular</string>
+    <string name="txt_btn_limpar">Limpar</string>
+    <string name="txt_btn_sair">Sair</string>
+
+    <string name="txt_imc_title">Cálculo do IMC</string>
+    <string name="txt_imc_peso">Peso(Kg)</string>
+    <string name="txt_imc_altura">Altura(m)</string>
+    <string name="txt_imc_resultado_label">Resultado do IMC</string>
+    <string name="txt_imc_classificacao_label">Classificação</string>
+    <string name="txt_imc_abaixo_peso">Abaixo do peso</string>
+    <string name="txt_imc_peso_normal">Peso Normal</string>
+    <string name="txt_imc_sobrepeso">Sobrepeso</string>
+    <string name="txt_imc_obesidade_i">Obesidade grau I</string>
+    <string name="txt_imc_obesidade_ii">Obesidade grau II</string>
+    <string name="txt_imc_obesidade_iii">Obesidade grau III ou mórbida</string>
+
+    <string name="txt_idade_title">Cálculo da Idade</string>
+    <string name="txt_idade_ano_atual">Ano Atual</string>
+    <string name="txt_idade_ano_nascimento">Ano de Nascimento</string>
+    <string name="txt_idade_anos_label">Idade em Anos</string>
+    <string name="txt_idade_meses_label">Idade em Meses</string>
+    <string name="txt_idade_dias_label">Idade em Dias</string>
+    <string name="txt_idade_horas_label">Idade em Horas</string>
+    <string name="txt_idade_minutos_label">Idade em Minutos</string>
+    <string name="txt_idade_segundos_label">Idade em Segundos</string>
+
+    <string name="txt_media_title">Média Final</string>
+    <string name="txt_media_nota1">Nota 1</string>
+    <string name="txt_media_nota2">Nota 2</string>
+    <string name="txt_media_faltas">Faltas</string>
+    <string name="txt_media_nota_final_label">Nota Final</string>
+    <string name="txt_media_situacao_label">Situação</string>
+    <string name="txt_media_aprovado">Aprovado</string>
+    <string name="txt_media_reprovado">Reprovado</string>
+    <string name="txt_media_exame">Exame</string>
 </resources>

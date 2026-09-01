@@ -24,7 +24,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cáculo da Idade"
+            android:text="@string/txt_idade_title"
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold" />
@@ -37,7 +37,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ano Atual"
+            android:text="@string/txt_idade_ano_atual"
             android:textSize="20sp" />
 
         <EditText
@@ -55,7 +55,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ano de Nascimento"
+            android:text="@string/txt_idade_ano_nascimento"
             android:textSize="20sp" />
 
         <EditText
@@ -73,7 +73,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Idade em Anos"
+            android:text="@string/txt_idade_anos_label"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Idade em Meses"
+            android:text="@string/txt_idade_meses_label"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -101,7 +101,7 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Idade em Dias"
+            android:text="@string/txt_idade_dias_label"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -115,7 +115,7 @@
             android:id="@+id/TextView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Idade em Horas"
+            android:text="@string/txt_idade_horas_label"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -129,7 +129,7 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Idade em Minutos"
+            android:text="@string/txt_idade_minutos_label"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -143,7 +143,7 @@
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Idade em Segundos"
+            android:text="@string/txt_idade_segundos_label"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -161,19 +161,19 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcular" />
+            android:text="@string/txt_btn_calcular" />
 
         <Button
             android:id="@+id/btnLimpar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Limpar" />
+            android:text="@string/txt_btn_limpar" />
 
         <Button
             android:id="@+id/btnSair"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sair" />
+            android:text="@string/txt_btn_sair" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

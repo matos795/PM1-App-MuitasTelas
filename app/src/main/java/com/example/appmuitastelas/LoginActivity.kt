@@ -52,7 +52,7 @@ class LoginActivity : AppCompatActivity() {
         startActivity(telaMenu)
         finish()
     } else {
-            tvResult.text = "Usuário ou senha incorretos"
+            tvResult.text = getString(R.string.txt_login_erro)
         }
     }
 }

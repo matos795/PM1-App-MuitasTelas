@@ -27,7 +27,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cálculo do IMC"
+            android:text="@string/txt_imc_title"
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold" />
@@ -40,7 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Peso(Kg)"
+            android:text="@string/txt_imc_peso"
             android:textSize="20sp" />
 
         <EditText
@@ -54,7 +54,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Altura(m)"
+            android:text="@string/txt_imc_altura"
             android:textSize="20sp" />
 
         <EditText
@@ -72,7 +72,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resultado do IMC"
+            android:text="@string/txt_imc_resultado_label"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -92,7 +92,7 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Classificação"
+            android:text="@string/txt_imc_classificacao_label"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -112,19 +112,19 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcular" />
+            android:text="@string/txt_btn_calcular" />
 
         <Button
             android:id="@+id/btnLimpar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Limpar" />
+            android:text="@string/txt_btn_limpar" />
 
         <Button
             android:id="@+id/btnSair"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sair" />
+            android:text="@string/txt_btn_sair" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

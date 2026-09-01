@@ -67,11 +67,11 @@ class MediaFinalActivity : AppCompatActivity() {
         notaFinal = (nota1 + nota2) / 2
 
         if(notaFinal >= 6 && faltas<=20) {
-            situacao = "Aprovado"
+            situacao = getString(R.string.txt_media_aprovado)
         } else if(faltas > 20 || notaFinal < 4) {
-            situacao = "Reprovado"
+            situacao = getString(R.string.txt_media_reprovado)
         } else {
-            situacao = "Exame"
+            situacao = getString(R.string.txt_media_exame)
         }
 
         tvNotaFinal.text = notaFinal.toString()

@@ -61,22 +61,22 @@ class ImcActivity : AppCompatActivity() {
         peso = etPeso.text.toString().toDouble()
         imc = peso/(altura*altura)
         if (imc < 18.5){
-            tvClassificacao.text = "Abaixo do peso"
+            tvClassificacao.text = getString(R.string.txt_imc_abaixo_peso)
         }
         else if (imc >= 18.5 && imc < 25){
-            tvClassificacao.text = "Peso Normal"
+            tvClassificacao.text = getString(R.string.txt_imc_peso_normal)
         }
-        else if (imc >= 25 && imc <30){
-            tvClassificacao.text = "Sobrepeso"
+        else if (imc >= 25 && imc < 30){
+            tvClassificacao.text = getString(R.string.txt_imc_sobrepeso)
         }
-        else if (imc >=30 && imc <35){
-            tvClassificacao.text = "Obesidade grau I"
+        else if (imc >= 30 && imc < 35){
+            tvClassificacao.text = getString(R.string.txt_imc_obesidade_i)
         }
-        else if (imc >=35 && imc <40){
-            tvClassificacao.text = "Obesidade grau II"
+        else if (imc >= 35 && imc < 40){
+            tvClassificacao.text = getString(R.string.txt_imc_obesidade_ii)
         }
-        else if (imc >=40){
-            tvClassificacao.text = "Obesidade grau III ou mórbida"
+        else if (imc >= 40){
+            tvClassificacao.text = getString(R.string.txt_imc_obesidade_iii)
         }
 
         tvResultado.text = imc.toString()
