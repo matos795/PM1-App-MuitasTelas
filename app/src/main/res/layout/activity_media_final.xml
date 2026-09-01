@@ -21,8 +21,8 @@
         android:layout_width="417dp"
         android:layout_height="726dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="-3dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-3dp">
 
         <TextView
             android:id="@+id/textView4"
